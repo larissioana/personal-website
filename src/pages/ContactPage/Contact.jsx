@@ -17,18 +17,7 @@ const Contact = () => {
       initial="hidden"
       animate="show"
     >
-      <ParticlesBg
-        type="cobweb"
-        bg={true}
-        style={{
-          zIndex: -1,
-          position: "absolute",
-          top: 0,
-          right: 0,
-        }}
-        num="100"
-        color="#a9a9af"
-      />
+      <ParticlesBg type="cobweb" bg={true} num="50" color="#a9a9af" />
       <ContactStyle>
         <motion.div variants={titleAnimation} className="title">
           <AiTwotoneHome className="home"></AiTwotoneHome>
