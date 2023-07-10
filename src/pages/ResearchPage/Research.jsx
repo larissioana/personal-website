@@ -6,7 +6,7 @@ import diagram from "../../assets/Eg_Bodo.png";
 import { ResearchStyle } from "./research";
 import { Button } from "../../components/Home/homeStyle";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import ScrollTop from "../../components/ScrollTop";
+
 
 const Research = () => {
   return (
@@ -29,7 +29,6 @@ const Research = () => {
         </NavLink>
       </ResearchStyle>
       <Footer />
-      <ScrollTop/>
     </motion.div>
   );
 };

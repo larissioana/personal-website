@@ -3,6 +3,7 @@ import {galaxiesInfo} from '../../data';
 import { fade2, pageAnimation, titleAnimation } from '../../animation';
 import Footer from '../Footer/Footer';
 import { SectionWrapper } from './researchAbstractStyle';
+import ScrollTop from '../ScrollTop';
 
 const ResearchAbstract = () => {
 
@@ -28,6 +29,7 @@ const ResearchAbstract = () => {
         </div>
         </SectionWrapper>
         <Footer/>
+        <ScrollTop/>
         </motion.section>
     )
 };
