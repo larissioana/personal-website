@@ -21,10 +21,10 @@ export const ResearchStyle = styled(motion.section)`
 
   .container {
     display: block;
-    width: 60%;
+    width: 90%;
     overflow: hidden;
     background: none;
-    box-shadow: 0px 0px 15px 0px #959191;
+    box-shadow: 0px 0px 15px 0px #050505;
 
     p {
       padding: 0.5rem;

@@ -20,8 +20,6 @@ const Research = () => {
           <LazyLoadImage
             src={diagram}
             alt="research diagram"
-            width="100%"
-            height="100%"
           />
           <h1>Extragalactic Astrophysics</h1>
         </div>
