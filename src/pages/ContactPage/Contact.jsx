@@ -7,7 +7,7 @@ import Footer from "../../components/Footer/Footer";
 //Animation
 import { motion } from "framer-motion";
 import { pageAnimation, fade2, titleAnimation } from "../../animation";
-import ParticlesBg from "particles-bg";
+
 
 const Contact = () => {
   return (
@@ -17,7 +17,6 @@ const Contact = () => {
       initial="hidden"
       animate="show"
     >
-      <ParticlesBg type="cobweb" bg={true} num="50" color="#a9a9af" />
       <ContactStyle>
         <motion.div variants={titleAnimation} className="title">
           <AiTwotoneHome className="home"></AiTwotoneHome>
